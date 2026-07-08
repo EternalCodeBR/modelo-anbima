@@ -4,9 +4,6 @@ Migração do modelo de **marcação a mercado de crédito privado** de uma plan
 Excel/VBA para um motor em Python que precifica a carteira seguindo as convenções
 **ANBIMA** (CDI, CDI+spread, prefixado e IPCA+spread) e valida cada ativo no centavo.
 
-> Projeto profissional. Dados de clientes e contrapartes foram removidos; os exemplos
-> em `exemplos/` são fictícios.
-
 ## Problema
 
 A marcação na curva da carteira era **manual, planilha por planilha**. Para fechar o
