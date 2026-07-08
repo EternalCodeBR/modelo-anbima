@@ -1,6 +1,0 @@
-IdSerie,IdTitulo,Apelido,Familia,Indexador,SerieIndice,TaxaFixa,VNe,Spread,DataEmissao,CalcPath,AbaPU,CelulaPU,Status,Base,JurosArred,DataCol,PercentualCDI,PreDaycount
-1001,EX0000001,Ativo DI Exemplo,di_puro,CDI,2,,1000.00,,2025-01-15,Exemplo/Ativo DI/calc_exemplo.xlsx,PU,M,verificado,252,trunc8,C,,
-1002,EX0000002,Ativo DI 105pct,di_puro,CDI,2,,1000.00,,2025-02-10,Exemplo/Ativo DI 105/calc_exemplo.xlsx,PU,M,verificado,252,trunc8,C,105,
-1003,EX0000003,Ativo DI+Spread,di_spread,CDI,2,,500000.00,0.05,2025-03-01,Exemplo/Ativo DIspread/calc_exemplo.xlsx,PU,M,verificado,360,trunc8,C,,
-1004,EX0000004,Ativo Prefixado,prefixado,PRE,,12.50,1000.00,,2025-04-01,Exemplo/Ativo Pre/calc_exemplo.xlsx,PU,M,verificado,252,round9,C,,30360
-1005,EX0000005,Ativo IPCA+Spread,ipca_spread,IPCA,,,1000.00,6.00,2025-05-01,Exemplo/Ativo IPCA/calc_exemplo.xlsx,PU,M,verificado,252,round9,C,,
