@@ -1,4 +1,4 @@
-# Modelo de Marcação a Mercado (MtM) — Migração VBA → Python
+# Modelo de Precificação na Curva — Migração VBA → Python
 
 Migração do modelo de **marcação a mercado de crédito privado** de uma planilha
 Excel/VBA para um motor em Python que precifica a carteira seguindo as convenções
@@ -9,8 +9,8 @@ Excel/VBA para um motor em Python que precifica a carteira seguindo as convenç�
 
 ## Problema
 
-A marcação a mercado da carteira era **manual, planilha por planilha**. Para fechar o
-MtM do dia, era preciso abrir dezenas de calculadoras em Excel, colar a taxa de CDI,
+A marcação na curva da carteira era **manual, planilha por planilha**. Para fechar o
+PU do dia, era preciso abrir dezenas de calculadoras em Excel, colar a taxa de CDI,
 recalcular e salvar — uma a uma. Levava **horas**, dependia de uma única pessoa conhecer
 cada planilha e era vulnerável a **erro operacional**: taxa aplicada em dia não-útil,
 data trocada, convenção de contagem de dias inconsistente. Em uma instituição regulada,
@@ -34,6 +34,6 @@ a ativo, o que está conforme e o que precisa de atenção.
   a sinalizou).
 - Processo antes dependente de uma pessoa virou **rotina de um comando**.
 
-## Tecnologias
+## Ferramentas
 
-Python · Excel/VBA · openpyxl · calendário de dias úteis B3/ANBIMA · automação de rotina
+Python · Excel/VBA 
