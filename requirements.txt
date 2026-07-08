@@ -1,4 +1,0 @@
-openpyxl==3.1.5
-pywin32>=311
-holidays>=0.94
-pytest==8.3.3
