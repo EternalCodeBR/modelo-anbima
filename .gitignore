@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Dados reais NUNCA versionar (só exemplos/ fictícios entram)
+data/
+*.xlsx
+*.xlsm
+*.xlsb
+*.xls
+!exemplos/*.csv
+
+# Excel temporários
+~$*
+*.tmp
+recalc_log.txt
+
+# Saídas geradas
+Saída*/
+Batimento*/
+Saida*/
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
