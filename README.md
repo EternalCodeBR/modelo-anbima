@@ -1,4 +1,4 @@
-# Modelo de Precificação na Curva — Migração VBA → Python
+# Modelo de Precificação na Curva em Python
 
 Migração do modelo de **marcação a mercado de crédito privado** de uma planilha
 Excel/VBA para um motor em Python que precifica a carteira seguindo as convenções
